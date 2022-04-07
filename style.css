@@ -12,6 +12,9 @@ body {
 .container .title {
     margin-bottom: 4%;
 }
+.container blockquote {
+    width: 86%;
+}
 .container .quotee {
     margin-left: 57%;
 }
