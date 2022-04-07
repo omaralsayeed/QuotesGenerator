@@ -1,0 +1,59 @@
+body {
+    background-color: #009688;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    width: 500px;
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 20px;
+    margin: 20px auto;
+}
+.container .title {
+    margin-bottom: 4%;
+}
+.container .quotee {
+    margin-left: 57%;
+}
+.container .divider {
+    height: 2px;
+    width: 400px;
+    background-color: #9e9e9e;
+    margin: 0 auto;
+}
+.container i {
+    font-size: 1.8em;
+}
+.listen, .copy {
+    padding: 20px 8px 5px 8px;
+    border: 2px solid #009688;
+    border-radius: 50%;
+    transition: .3s ease;
+}
+.listen:hover, .copy:hover {
+    cursor: pointer;
+    background-color: #009688;
+    color: white;
+}
+.new-quote {
+    background-color: #009688;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 30px;
+    float: right;
+    margin-top: -1%;
+    margin-right: 7%;
+    transition: .3s ease;
+}
+.new-quote:hover {
+    cursor: pointer;
+    background-color: #2e6e68;
+}
+.new-quote.loading {
+    opacity: 0.7;
+    pointer-events: none;
+}
+.buttons {
+    margin: 4% 0% -1% -30%;
+}
