@@ -25,10 +25,10 @@ body {
     margin: 0 auto;
 }
 .container i {
-    font-size: 1.8em;
+    font-size: 1.6em;
 }
 .listen, .copy {
-    padding: 20px 8px 5px 8px;
+    padding: 16px 8px 5px 8px;
     border: 2px solid #009688;
     border-radius: 50%;
     transition: .3s ease;
